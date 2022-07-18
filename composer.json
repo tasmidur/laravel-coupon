@@ -1,0 +1,31 @@
+{
+    "name": "tasmidur/coupon",
+    "description": "description",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "tasmidur",
+            "email": "tasmidurrahman@example.com",
+            "role": "developer"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "illuminate/config": "^8.0|^9.0",
+        "illuminate/database": "^8.0|^9.0",
+        "illuminate/support": "^8.0|^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tasmidur\\Coupon\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Tasmidur\\Coupon\\LaravelCouponServiceProvider"
+            ]
+        }
+    }
+}
